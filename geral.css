@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'MarkPro';
+    text-shadow: #000 1px -1px, #000 -1px 1px, #000 1px 1px, #000 -1px -1px;
+}
+
+@font-face{
+    font-family: 'MarkPro';
+    src: url('fonts/MarkPro.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    width:100%;
+    height:100%;
+    background-position: top
+}
+
+.center{
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.menu{
+    font-size: 17pt;
+    color: aliceblue;
+    background-color: #2a2828;
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    height: 6vh;
+    justify-content: space-around;
+}
+
+.logovalorant{
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.menu td{
+    width: 12rem;
+    text-align: center;
+}
+
+.menu td :hover{
+    background-color: rgb(22, 22, 22);
+    transform: translatey(-2px);
+    box-shadow: 0 5px 5px black;
+    border-radius: 10px;
+    transition: 0.05s ease-in-out
+}
+
+a{
+    color: aliceblue;
+}
+
+tr a{
+    text-decoration: none;   
+}
+
+.linha1{
+    width: 250px;
+    height: 1px;
+    background: red;
+    position: relative;
+    animation: mymove 2s infinite;
+}
+
+.linha2{
+    width: 250px;
+    height: 1px;
+    background: red;
+    position: relative;
+    animation: mymoves 2s infinite;
+}
+
+@keyframes mymove {
+    from {left: 4%;
+        top: 1rem;}
+    to {left: 80%;
+        top: 1rem;}
+}
+
+@keyframes mymoves {
+    from {left: 80%;
+        top: 1rem;}
+    to {left: 4%;
+        top: 1rem;}
+    }
+

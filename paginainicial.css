@@ -1,0 +1,52 @@
+body{   
+    background-image: url(imagens/background-paginainicial.png);
+    background-attachment: fixed;
+}
+.gif img{
+    border-radius: 10px;
+}
+
+.tabela{
+    padding-top: 2rem;
+    font-size: 16pt;
+    color: aliceblue;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.video iframe{
+    border-radius: 20px;
+    display: inline-block;
+    margin-top:0px;
+    padding: 5px 5px;
+}
+.textresumo{
+    text-align: justify;
+}
+
+#espaço{
+    width: 3rem;
+}
+
+.linkjogo{
+    padding-left: 15rem;
+    font-size: 20pt;
+    color: aliceblue;
+}
+
+#cliqueaqui:hover{
+    transform:scale(1.1);
+}
+
+#cliqueaqui{
+    display: inline-block;
+    margin-top:50px;
+    padding: 20px 40px;
+    background:#ff4655; ;
+    color:#fff;
+    font-weight:800;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-radius: 40px;
+    transition: 0.15s ease-in-out;
+}
+

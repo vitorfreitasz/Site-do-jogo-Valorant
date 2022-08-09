@@ -1,0 +1,45 @@
+body{     
+    background-image: url(imagens/background-mapas.png);
+    background-attachment: fixed;    
+}
+
+.tabelamapas tr td img{
+    border-radius: 20px;
+}
+
+.mapasmenu{
+    padding-top: 4rem;
+}
+
+.mapasmenu td {
+    text-align: center;
+    width: 28rem;
+    height: 18rem;
+}
+
+.mapasmenu a{
+    font-size: 20pt;
+    color: aliceblue;
+}
+
+.mapasmenu tr td:hover:not(p) {
+    transform:scale(1.1);
+    transition: 0.15s ease-in-out;
+}
+
+.mapasmenu img{
+    max-width: 400px;
+    max-height: 250px;
+    
+}
+
+#resumomapas{
+    font-size: 16pt;
+    color: aliceblue;
+    text-align: justify;
+    width: 100rem;
+}
+
+#espaço{
+    height: 2rem;
+}

@@ -1,0 +1,40 @@
+body{  
+    background-image: url(imagens/background-agentes.png);
+    background-attachment: fixed;
+}
+
+.agentesmenu{
+    padding-top: 4rem;
+}
+
+.agentesmenu td {
+    text-align: center;
+    width: 20rem;
+    height: 32rem;
+}
+
+.agentesmenu a{
+    font-size: 20pt;
+    color: aliceblue;
+}
+
+.agentesmenu tr td:hover:not(p) {
+    transform:scale(1.1);
+    transition: 0.15s ease-in-out;
+}
+
+.agentesmenu img{
+    max-width: 350px;
+    max-height: 400px;
+}
+
+#resumoagentes{
+    font-size: 16pt;
+    color: aliceblue;
+    text-align: justify;
+    width: 95rem;
+}
+
+#espaço{
+    height: 2rem;
+}
